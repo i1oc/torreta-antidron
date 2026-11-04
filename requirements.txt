@@ -1,0 +1,38 @@
+# Entorno del proyecto = entorno "voi-lab" de las prácticas (Python 3.9) + pytest.
+# Mismas versiones que environment_win.yml del curso (icai-voi/voi-26-27).
+# Requiere Python 3.9: opencv-python 4.8 y numpy 1.26 no tienen versión para 3.13/3.14.
+
+# Cálculo numérico y visualización
+numpy==1.26.0
+scipy==1.13.1           # linear_sum_assignment (asignación húngara)
+matplotlib==3.9.4       # figuras del informe
+networkx==3.2.1
+
+# Imagen
+opencv-python==4.8.0.76
+scikit-image==0.24.0
+imageio==2.36.1
+pillow==11.3.0
+tifffile==2024.8.30
+
+# Configuración
+PyYAML==6.0.2           # config/config.yaml y calibration/calib.yaml
+
+# Análisis de resultados
+scikit-learn==1.6.1     # métricas (p. ej. matriz de confusión de las tarjetas)
+pandas==2.3.3           # tablas de resultados
+openpyxl==3.1.5
+tqdm==4.70.1
+
+# Notebooks
+jupyterlab==4.4.6
+notebook==7.4.5
+ipykernel==6.30.1
+ipython==8.15.0
+
+# Utilidades
+requests==2.32.5
+beautifulsoup4==4.13.5
+
+# Tests (única librería nueva respecto a las prácticas)
+pytest==8.3.5

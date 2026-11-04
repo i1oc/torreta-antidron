@@ -1,0 +1,11 @@
+# Configuración del sistema. Cambiad aquí los parámetros, no en el código.
+camera:
+  index: 0          # 0 = cámara integrada; prueba 1, 2... si usas una webcam USB
+  width: 640        # resolución de procesado (la misma con la que se calibra)
+  height: 480
+  fps: 30
+  mirror: false     # NO activar: el espejo rompe la geometría de la calibración
+
+display:
+  window_name: "Torreta antidron"
+  snapshot_dir: "data/snapshots"

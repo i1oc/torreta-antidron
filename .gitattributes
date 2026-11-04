@@ -1,0 +1,11 @@
+# Normaliza finales de linea (LF en el repo) para que Windows y Mac no generen diffs falsos
+* text=auto
+*.py text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+
+# Binarios
+*.png binary
+*.jpg binary
+*.pdf binary
+*.mp4 binary
